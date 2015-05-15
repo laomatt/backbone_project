@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/items/get_items' => 'items#get_items'
+  post '/items/get_items/' => 'items#add_item'
   resources :items
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -5,7 +5,8 @@ var Item = Backbone.Model.extend({
   },
   checkOff:function(){
     this.set({completed:true});
-    // this.save();
+    // debugger
+    this.save();
   }
 })
 
